@@ -1,0 +1,29 @@
+# SimBench (jerrin-v/simbench) — notes for Claude
+
+Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 ("anyone can download and use the software … add the private key to SimBench also") this public repo holds the app **only sealed**, like his portfolio, alphads and my-agent-hq repos:
+
+- `backup/simbench.tar.gz.age` — the whole app folder: `index.html` (the page exactly as on claude.ai), `simbench-server.js`, `src/`, `tests/`, `docs/`, `tools/site-lock.mjs`, `build.py`, `package.json`, `LICENSE` and the detailed app notes in its own `CLAUDE.md`. Sealed with age to `keys/backup-recipient.txt`.
+- `backup/BUILD.txt` — `app: SimBench vX.Y.Z · packed <time>`; `tools/update-log.py` reads the Version column from it.
+- Public files only: README.md, RESTORE.md, LICENSE, this file, `.github/workflows/` (publish, update-log), `tools/pack.sh`, `tools/update-log.py`, `keys/`, `docs/4-results.png` (the README picture). `.gitignore` blocks the opened app's paths and any `*key*.txt`. Never commit an opened file, a key or a password.
+- History: every commit holds only sealed versions; the kept ones are v1.0.17 to v1.0.19 (15 Nov 2026).
+
+## Working on SimBench
+1. The private key is Jerrin's, kept outside the repo. A session gets it only from him (the file, with his approval, through the linked computer, or attached to the chat). Never print it, commit it or keep it after the work.
+2. Open the backup outside the repo: `mkdir -p /home/claude/simbench-src && age -d -i <key file> backup/simbench.tar.gz.age | tar -xz -C /home/claude/simbench-src`. Read its `CLAUDE.md`: layout, build, tests, version rules and the app's notes are there.
+3. Change, build and test there; publish `index.html` to the claude.ai artifact as before.
+4. Seal it: `sh tools/pack.sh /home/claude/simbench-src` (public key only; writes `backup/simbench.tar.gz.age` and `backup/BUILD.txt`). Delete the key file from the session when done.
+
+## Website
+`.github/workflows/publish.yml` opens the backup with the `SITE_BACKUP_KEY` secret, locks `index.html` for the users in the `SITE_USERS` secret with the backup's own `tools/site-lock.mjs`, and publishes that one page to https://jerrin-v.github.io/simbench/ (Pages source: GitHub Actions). A session cannot read or set secrets; Jerrin changes them under Settings, then runs Actions › Publish site › Run workflow.
+
+## Working rules (from Jerrin)
+- **Push to GitHub only when Jerrin says "Push".**
+- **No security details in the README** (15 Nov 2026): no secret names, password or user steps, sign-in behaviour, example logins or IDs.
+- Every app update raises the version by 1 in the last place (`version` in `package.json` inside the backup), as the app's own notes say.
+- README in the style of his other repos.
+
+## When Jerrin says "Push"
+1. `git pull --rebase origin main` (the Update log workflow may have committed a README update).
+2. Seal the new version (above) and commit `backup/` as `vX.Y.Z: what changed`. That line is the Change column of the table.
+3. `python3 tools/update-log.py`, then commit `README.md` alone as "README: latest updates".
+4. Push both commits to `main`. Check the Publish site run, then open the address and read the version label.

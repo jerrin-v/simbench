@@ -1,0 +1,13 @@
+# The app is kept here only sealed (backup/). Its opened files and any key file never are.
+/index.html
+/simbench-server.js
+/src/
+/tests/
+/build.py
+/package.json
+/docs/*
+!/docs/4-results.png
+*key*.txt
+node_modules/
+__pycache__/
+.DS_Store

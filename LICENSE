@@ -1,0 +1,12 @@
+Copyright (c) 2026 Jerrin Varghese. All rights reserved.
+
+This repository and the app built from it, including the SimBench design, its simulation
+solvers, interface, code, text and images, are the property of Jerrin Varghese. No part may
+be copied, modified, published or used, in whole or in part, without prior written permission.
+
+The Alpha Design System used by the interface (the files in src/design-system/ and the copies
+of them inside index.html) is the property of Alpha X. No part of it may be copied, modified,
+published, distributed or used, in whole or in part, without prior written permission from
+Alpha X.
+
+Contact: www.jerrindesign.com
