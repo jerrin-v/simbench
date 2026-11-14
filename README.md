@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sun 15 Nov 2026, 2:40:16 AM UAE<br><sub>Sat 14 Nov 2026, 10:40:16 PM UTC</sub> | Notes redone as compact cards, Save in one step where the browser only downloads, narrower Save as, a flow picture behind the sign-in card | v1.0.17 | [`6a5b996`](https://github.com/jerrin-v/simbench/commit/6a5b9962a11dd577fac9353538bd89833ce41128) |
 | Sun 15 Nov 2026, 2:01:40 AM UAE<br><sub>Sat 14 Nov 2026, 10:01:40 PM UTC</sub> | The version badge's digits exactly in the middle | v1.0.16 | [`3afc349`](https://github.com/jerrin-v/simbench/commit/3afc3499604fe1e49d11a30c0fddb5b4668bad5e) |
 | Sun 15 Nov 2026, 1:54:42 AM UAE<br><sub>Sat 14 Nov 2026, 9:54:42 PM UTC</sub> | The version badge's text centred, the tree's search box with a 1 px line | v1.0.15 | [`2dacb4a`](https://github.com/jerrin-v/simbench/commit/2dacb4ac889ef92022f599a85e4e68498fb60768) |
-| Sun 15 Nov 2026, 1:50:37 AM UAE<br><sub>Sat 14 Nov 2026, 9:50:37 PM UTC</sub> | The version as a badge beside the name, the mode name removed from the header | v1.0.14 | [`0a50ec5`](https://github.com/jerrin-v/simbench/commit/0a50ec5364bd58ced8008066b911c882a9e160e5) |
 <!-- latest-updates:end -->
 
 ## What it simulates
