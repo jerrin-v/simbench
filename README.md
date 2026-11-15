@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sun 15 Nov 2026, 12:29:03 PM UAE<br><sub>Sun 15 Nov 2026, 8:29:03 AM UTC</sub> | The logo the same size as the Guided button with matching corners, and white on the light sign-in page | v1.0.20 | [`1352c8f`](https://github.com/jerrin-v/simbench/commit/1352c8f09ce022a89b4172acf249e43f599def9e) |
 | Sun 15 Nov 2026, 10:55:40 AM UAE<br><sub>Sun 15 Nov 2026, 6:55:40 AM UTC</sub> | The UX audit: light theme and Guided mode by default, the simulation in hand named on every screen, step chips, 65 fixes in all | v1.0.19 | [`ea6bc2c`](https://github.com/jerrin-v/simbench/commit/ea6bc2c3b58af996f9e6922880228307c272ee11) |
 | Sun 15 Nov 2026, 2:49:47 AM UAE<br><sub>Sat 14 Nov 2026, 10:49:47 PM UTC</sub> | A favicon, and the sign-in page back to the plain dot grid | v1.0.18 | [`252cb1a`](https://github.com/jerrin-v/simbench/commit/252cb1aefe406bcbf28f0fbc195ae03f21b4b830) |
-| Sun 15 Nov 2026, 2:40:16 AM UAE<br><sub>Sat 14 Nov 2026, 10:40:16 PM UTC</sub> | Notes redone as compact cards, Save in one step where the browser only downloads, narrower Save as, a flow picture behind the sign-in card | v1.0.17 | [`6a5b996`](https://github.com/jerrin-v/simbench/commit/6a5b9962a11dd577fac9353538bd89833ce41128) |
 <!-- latest-updates:end -->
 
 ## What it simulates
