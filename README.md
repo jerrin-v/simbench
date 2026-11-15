@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sun 15 Nov 2026, 8:04:22 PM UAE<br><sub>Sun 15 Nov 2026, 4:04:22 PM UTC</sub> | Recent files second line in the primary colour, remove button spaced evenly | v1.0.34 | [`eded438`](https://github.com/jerrin-v/simbench/commit/eded43804f28ffa07037c543eb9da80ca6973e68) |
 | Sun 15 Nov 2026, 7:52:22 PM UAE<br><sub>Sun 15 Nov 2026, 3:52:22 PM UTC</sub> | Guided panel folds to a narrow strip; Recent files rows without icon | v1.0.33 | [`cc9a00b`](https://github.com/jerrin-v/simbench/commit/cc9a00be3db158b603631d806f18ecf27024ccf6) |
 | Sun 15 Nov 2026, 6:56:14 PM UAE<br><sub>Sun 15 Nov 2026, 2:56:14 PM UTC</sub> | messages centred in Full view | v1.0.31 | [`94605f0`](https://github.com/jerrin-v/simbench/commit/94605f08e684a8cee5167aa8bba8af59e89aaac1) |
-| Sun 15 Nov 2026, 6:33:12 PM UAE<br><sub>Sun 15 Nov 2026, 2:33:12 PM UTC</sub> | logo, name and time on reports; Manual mode name; double-click reset; Full view; new simulation icons; AI assistant in Settings | v1.0.30 | [`60a4e96`](https://github.com/jerrin-v/simbench/commit/60a4e96dfd66d73dfe52512b2ecb87e21d753187) |
 <!-- latest-updates:end -->
 
 ## What it simulates
