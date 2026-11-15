@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sun 15 Nov 2026, 6:56:14 PM UAE<br><sub>Sun 15 Nov 2026, 2:56:14 PM UTC</sub> | messages centred in Full view | v1.0.31 | [`94605f0`](https://github.com/jerrin-v/simbench/commit/94605f08e684a8cee5167aa8bba8af59e89aaac1) |
 | Sun 15 Nov 2026, 6:33:12 PM UAE<br><sub>Sun 15 Nov 2026, 2:33:12 PM UTC</sub> | logo, name and time on reports; Manual mode name; double-click reset; Full view; new simulation icons; AI assistant in Settings | v1.0.30 | [`60a4e96`](https://github.com/jerrin-v/simbench/commit/60a4e96dfd66d73dfe52512b2ecb87e21d753187) |
 | Sun 15 Nov 2026, 5:32:12 PM UAE<br><sub>Sun 15 Nov 2026, 1:32:12 PM UTC</sub> | Heat over time, export for ParaView, NACA wings with a lift and drag polar, and an agent in Ask Claude that sets up and runs a check | v1.0.29 | [`e7becc5`](https://github.com/jerrin-v/simbench/commit/e7becc523bbc85085602df23e0396c7daa026d31) |
-| Sun 15 Nov 2026, 3:12:28 PM UAE<br><sub>Sun 15 Nov 2026, 11:12:28 AM UTC</sub> | A new sign-in page, Unsaved work and safer saving, the Frost UI style, theme and style in Settings, white text on orange in dark | v1.0.27 | [`4c2ad50`](https://github.com/jerrin-v/simbench/commit/4c2ad50dfa751be937972199bbee30162633f24b) |
 <!-- latest-updates:end -->
 
 ## What it simulates
