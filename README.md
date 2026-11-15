@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sun 15 Nov 2026, 5:32:12 PM UAE<br><sub>Sun 15 Nov 2026, 1:32:12 PM UTC</sub> | Heat over time, export for ParaView, NACA wings with a lift and drag polar, and an agent in Ask Claude that sets up and runs a check | v1.0.29 | [`e7becc5`](https://github.com/jerrin-v/simbench/commit/e7becc523bbc85085602df23e0396c7daa026d31) |
 | Sun 15 Nov 2026, 3:12:28 PM UAE<br><sub>Sun 15 Nov 2026, 11:12:28 AM UTC</sub> | A new sign-in page, Unsaved work and safer saving, the Frost UI style, theme and style in Settings, white text on orange in dark | v1.0.27 | [`4c2ad50`](https://github.com/jerrin-v/simbench/commit/4c2ad50dfa751be937972199bbee30162633f24b) |
 | Sun 15 Nov 2026, 12:29:03 PM UAE<br><sub>Sun 15 Nov 2026, 8:29:03 AM UTC</sub> | The logo the same size as the Guided button with matching corners, and white on the light sign-in page | v1.0.20 | [`1352c8f`](https://github.com/jerrin-v/simbench/commit/1352c8f09ce022a89b4172acf249e43f599def9e) |
-| Sun 15 Nov 2026, 10:55:40 AM UAE<br><sub>Sun 15 Nov 2026, 6:55:40 AM UTC</sub> | The UX audit: light theme and Guided mode by default, the simulation in hand named on every screen, step chips, 65 fixes in all | v1.0.19 | [`ea6bc2c`](https://github.com/jerrin-v/simbench/commit/ea6bc2c3b58af996f9e6922880228307c272ee11) |
 <!-- latest-updates:end -->
 
 ## What it simulates
