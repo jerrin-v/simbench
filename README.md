@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Mon 16 Nov 2026, 5:41:42 PM UAE<br><sub>Mon 16 Nov 2026, 1:41:42 PM UTC</sub> | shorter start-screen cards; examples in an Examples menu | v1.0.46 | [`51c3815`](https://github.com/jerrin-v/simbench/commit/51c3815fd9a480010c397f7aceb5f25e66ebc9ad) |
 | Mon 16 Nov 2026, 4:47:23 PM UAE<br><sub>Mon 16 Nov 2026, 12:47:23 PM UTC</sub> | Lightweight (topology optimisation); buckling and fatigue in Strength; shaking response in Vibration; results on the model's own surface; smoother camera | v1.0.45 | [`15334aa`](https://github.com/jerrin-v/simbench/commit/15334aa8ee0cf9541e24a7518f209b0f39c748a6) |
 | Mon 16 Nov 2026, 2:13:00 PM UAE<br><sub>Mon 16 Nov 2026, 10:13:00 AM UTC</sub> | hand handle beside the close button; scrollbar 8 px wide, 8 px from the edge | v1.0.39 | [`5883acf`](https://github.com/jerrin-v/simbench/commit/5883acf617eb3fbf333cf393589a7f82636b2ec7) |
-| Mon 16 Nov 2026, 1:53:19 PM UAE<br><sub>Mon 16 Nov 2026, 9:53:19 AM UTC</sub> | face list draggable with snapping edges; one thin scrollbar; icons redrawn | v1.0.38 | [`38c77b6`](https://github.com/jerrin-v/simbench/commit/38c77b6c199269a6088a763508200d3363fc6c69) |
 <!-- latest-updates:end -->
 
 ## What it simulates
