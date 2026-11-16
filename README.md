@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Mon 16 Nov 2026, 2:13:00 PM UAE<br><sub>Mon 16 Nov 2026, 10:13:00 AM UTC</sub> | hand handle beside the close button; scrollbar 8 px wide, 8 px from the edge | v1.0.39 | [`5883acf`](https://github.com/jerrin-v/simbench/commit/5883acf617eb3fbf333cf393589a7f82636b2ec7) |
 | Mon 16 Nov 2026, 1:53:19 PM UAE<br><sub>Mon 16 Nov 2026, 9:53:19 AM UTC</sub> | face list draggable with snapping edges; one thin scrollbar; icons redrawn | v1.0.38 | [`38c77b6`](https://github.com/jerrin-v/simbench/commit/38c77b6c199269a6088a763508200d3363fc6c69) |
 | Mon 16 Nov 2026, 1:16:45 PM UAE<br><sub>Mon 16 Nov 2026, 9:16:45 AM UTC</sub> | clearer face list; page title is SimBench | v1.0.36 | [`dc1d0cf`](https://github.com/jerrin-v/simbench/commit/dc1d0cf4fd39c308174df6b6b21745f119d42d55) |
-| Sun 15 Nov 2026, 10:13:52 PM UAE<br><sub>Sun 15 Nov 2026, 6:13:52 PM UTC</sub> | a theme button on the results page, for a look at the result on the other theme | v1.0.35 | [`4c1f751`](https://github.com/jerrin-v/simbench/commit/4c1f75112cc9b67b4b4ff9cce1c6b0de1cb137d1) |
 <!-- latest-updates:end -->
 
 ## What it simulates
