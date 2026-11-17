@@ -1,1 +1,1 @@
-app: SimBench v1.0.65 · packed 2026-11-17T12:26:28Z
+app: SimBench v1.0.66 · packed 2026-11-17T12:57:59Z
