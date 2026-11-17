@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Tue 17 Nov 2026, 10:39:01 AM UAE<br><sub>Tue 17 Nov 2026, 6:39:01 AM UTC</sub> | cards keep their own height; thinner Compact borders; legend as wide as Job status; Recent files heading stays on top | v1.0.49 | [`435334c`](https://github.com/jerrin-v/simbench/commit/435334c7419440035b1474cc064f57011d8a5e44) |
 | Tue 17 Nov 2026, 10:08:58 AM UAE<br><sub>Tue 17 Nov 2026, 6:08:58 AM UTC</sub> | Compact without zoom; Settings in pages; closer card text; face list reaches the corners; one status bar text size | v1.0.48 | [`981eaa2`](https://github.com/jerrin-v/simbench/commit/981eaa2165a16bd105866e4386c55a91d7d6ab72) |
 | Tue 17 Nov 2026, 9:22:48 AM UAE<br><sub>Tue 17 Nov 2026, 5:22:48 AM UTC</sub> | Advanced mode; equal mode buttons; centred tab text; countdown ring on messages; Compact UI size | v1.0.47 | [`4a1b7ea`](https://github.com/jerrin-v/simbench/commit/4a1b7ea7b0bd3f4673ab58bb164da3920c61f65e) |
-| Mon 16 Nov 2026, 5:41:42 PM UAE<br><sub>Mon 16 Nov 2026, 1:41:42 PM UTC</sub> | shorter start-screen cards; examples in an Examples menu | v1.0.46 | [`51c3815`](https://github.com/jerrin-v/simbench/commit/51c3815fd9a480010c397f7aceb5f25e66ebc9ad) |
 <!-- latest-updates:end -->
 
 ## What it simulates
