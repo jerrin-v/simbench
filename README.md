@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Tue 17 Nov 2026, 11:58:20 AM UAE<br><sub>Tue 17 Nov 2026, 7:58:20 AM UTC</sub> | Inter everywhere; 1 px button outlines, lower Compact buttons, even button padding; Recent files and Unsaved work as tabs | v1.0.54 | [`8247c45`](https://github.com/jerrin-v/simbench/commit/8247c453676762af1925db70c46de6e1593a3022) |
 | Tue 17 Nov 2026, 11:10:24 AM UAE<br><sub>Tue 17 Nov 2026, 7:10:24 AM UTC</sub> | red peaks back on result surfaces (finer surface colouring); no ghost flicker; 1 px borders in Compact | v1.0.51 | [`49f8e40`](https://github.com/jerrin-v/simbench/commit/49f8e40cfec5711683e7a7ab07689bbc6354ad5d) |
 | Tue 17 Nov 2026, 10:39:01 AM UAE<br><sub>Tue 17 Nov 2026, 6:39:01 AM UTC</sub> | cards keep their own height; thinner Compact borders; legend as wide as Job status; Recent files heading stays on top | v1.0.49 | [`435334c`](https://github.com/jerrin-v/simbench/commit/435334c7419440035b1474cc064f57011d8a5e44) |
-| Tue 17 Nov 2026, 10:08:58 AM UAE<br><sub>Tue 17 Nov 2026, 6:08:58 AM UTC</sub> | Compact without zoom; Settings in pages; closer card text; face list reaches the corners; one status bar text size | v1.0.48 | [`981eaa2`](https://github.com/jerrin-v/simbench/commit/981eaa2165a16bd105866e4386c55a91d7d6ab72) |
 <!-- latest-updates:end -->
 
 ## What it simulates
