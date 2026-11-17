@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Tue 17 Nov 2026, 9:22:48 AM UAE<br><sub>Tue 17 Nov 2026, 5:22:48 AM UTC</sub> | Advanced mode; equal mode buttons; centred tab text; countdown ring on messages; Compact UI size | v1.0.47 | [`4a1b7ea`](https://github.com/jerrin-v/simbench/commit/4a1b7ea7b0bd3f4673ab58bb164da3920c61f65e) |
 | Mon 16 Nov 2026, 5:41:42 PM UAE<br><sub>Mon 16 Nov 2026, 1:41:42 PM UTC</sub> | shorter start-screen cards; examples in an Examples menu | v1.0.46 | [`51c3815`](https://github.com/jerrin-v/simbench/commit/51c3815fd9a480010c397f7aceb5f25e66ebc9ad) |
 | Mon 16 Nov 2026, 4:47:23 PM UAE<br><sub>Mon 16 Nov 2026, 12:47:23 PM UTC</sub> | Lightweight (topology optimisation); buckling and fatigue in Strength; shaking response in Vibration; results on the model's own surface; smoother camera | v1.0.45 | [`15334aa`](https://github.com/jerrin-v/simbench/commit/15334aa8ee0cf9541e24a7518f209b0f39c748a6) |
-| Mon 16 Nov 2026, 2:13:00 PM UAE<br><sub>Mon 16 Nov 2026, 10:13:00 AM UTC</sub> | hand handle beside the close button; scrollbar 8 px wide, 8 px from the edge | v1.0.39 | [`5883acf`](https://github.com/jerrin-v/simbench/commit/5883acf617eb3fbf333cf393589a7f82636b2ec7) |
 <!-- latest-updates:end -->
 
 ## What it simulates
