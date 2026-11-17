@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Tue 17 Nov 2026, 4:26:28 PM UAE<br><sub>Tue 17 Nov 2026, 12:26:28 PM UTC</sub> | first load shows the loading screen for 4 s with a bar that fills in that time | v1.0.65 | [`96e4cb7`](https://github.com/jerrin-v/simbench/commit/96e4cb7ffdeab8a295eabd1affe627a2a2d2a56c) |
 | Tue 17 Nov 2026, 4:19:12 PM UAE<br><sub>Tue 17 Nov 2026, 12:19:12 PM UTC</sub> | Compact status bar text smaller; start-screen content kept left in one-column layout | v1.0.64 | [`bdb2026`](https://github.com/jerrin-v/simbench/commit/bdb20267b90e83f22c44b481f22b99249f66c85f) |
 | Tue 17 Nov 2026, 3:59:50 PM UAE<br><sub>Tue 17 Nov 2026, 11:59:50 AM UTC</sub> | loading screen (logo with lighting bars, sweeping bar) before the sign-in, while signing in and while the app starts | v1.0.62 | [`f0ee7ad`](https://github.com/jerrin-v/simbench/commit/f0ee7ad8fd537f63f34e76945744bb79d4208ce1) |
-| Tue 17 Nov 2026, 3:28:30 PM UAE<br><sub>Tue 17 Nov 2026, 11:28:30 AM UTC</sub> | free turning; header and button alignment; dialog footers; scrollbar lane; equal top-bar heights | v1.0.61 | [`46bfae3`](https://github.com/jerrin-v/simbench/commit/46bfae36b9b2c8e89e3d7c1b8166a2c0739f043c) |
 <!-- latest-updates:end -->
 
 ## What it simulates
