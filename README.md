@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Tue 17 Nov 2026, 3:59:50 PM UAE<br><sub>Tue 17 Nov 2026, 11:59:50 AM UTC</sub> | loading screen (logo with lighting bars, sweeping bar) before the sign-in, while signing in and while the app starts | v1.0.62 | [`f0ee7ad`](https://github.com/jerrin-v/simbench/commit/f0ee7ad8fd537f63f34e76945744bb79d4208ce1) |
 | Tue 17 Nov 2026, 3:28:30 PM UAE<br><sub>Tue 17 Nov 2026, 11:28:30 AM UTC</sub> | free turning; header and button alignment; dialog footers; scrollbar lane; equal top-bar heights | v1.0.61 | [`46bfae3`](https://github.com/jerrin-v/simbench/commit/46bfae36b9b2c8e89e3d7c1b8166a2c0739f043c) |
 | Tue 17 Nov 2026, 1:22:07 PM UAE<br><sub>Tue 17 Nov 2026, 9:22:07 AM UTC</sub> | UX/UI audit fixes: contrast, phone layout, messages, 11 px text floor, one focus ring, one theme setting | v1.0.55 | [`313cc8d`](https://github.com/jerrin-v/simbench/commit/313cc8df13f4ee71d40327ce43037b783d1613df) |
-| Tue 17 Nov 2026, 11:58:20 AM UAE<br><sub>Tue 17 Nov 2026, 7:58:20 AM UTC</sub> | Inter everywhere; 1 px button outlines, lower Compact buttons, even button padding; Recent files and Unsaved work as tabs | v1.0.54 | [`8247c45`](https://github.com/jerrin-v/simbench/commit/8247c453676762af1925db70c46de6e1593a3022) |
 <!-- latest-updates:end -->
 
 ## What it simulates
