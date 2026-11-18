@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Wed 18 Nov 2026, 11:01:00 AM UAE<br><sub>Wed 18 Nov 2026, 7:01:00 AM UTC</sub> | tooltips after 2 s with a Settings switch, full-details PDF report, equal result buttons, glass popups, notification cards | v1.0.70 | [`6f495d4`](https://github.com/jerrin-v/simbench/commit/6f495d46b682e41127f4f3caa4068a11f61fa699) |
 | Wed 18 Nov 2026, 9:51:22 AM UAE<br><sub>Wed 18 Nov 2026, 5:51:22 AM UTC</sub> | DS type scale and red, three.js integrity, audit fixes from v1.0.67 | v1.0.68 | [`df562f0`](https://github.com/jerrin-v/simbench/commit/df562f0f33337173994bb02ff82a7dbd10fb9af5) |
 | Tue 17 Nov 2026, 4:58:03 PM UAE<br><sub>Tue 17 Nov 2026, 12:58:03 PM UTC</sub> | Ask Claude sits 12 px above the status strip on the start screen | v1.0.66 | [`20a5b01`](https://github.com/jerrin-v/simbench/commit/20a5b0116670b8da144c8e4350bd78f26453bd26) |
-| Tue 17 Nov 2026, 4:26:28 PM UAE<br><sub>Tue 17 Nov 2026, 12:26:28 PM UTC</sub> | first load shows the loading screen for 4 s with a bar that fills in that time | v1.0.65 | [`96e4cb7`](https://github.com/jerrin-v/simbench/commit/96e4cb7ffdeab8a295eabd1affe627a2a2d2a56c) |
 <!-- latest-updates:end -->
 
 ## What it simulates
