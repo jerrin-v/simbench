@@ -13,9 +13,9 @@ The last 3 updates pushed here, newest first. Kept up to date by the **Update lo
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Wed 18 Nov 2026, 11:11:47 AM UAE<br><sub>Wed 18 Nov 2026, 7:11:47 AM UTC</sub> | the name pill's arrow sits 12 px from its right edge | v1.0.71 | [`ea6113f`](https://github.com/jerrin-v/simbench/commit/ea6113fb3bce02ac19485004d3bdd7e1dad79deb) |
 | Wed 18 Nov 2026, 11:01:00 AM UAE<br><sub>Wed 18 Nov 2026, 7:01:00 AM UTC</sub> | tooltips after 2 s with a Settings switch, full-details PDF report, equal result buttons, glass popups, notification cards | v1.0.70 | [`6f495d4`](https://github.com/jerrin-v/simbench/commit/6f495d46b682e41127f4f3caa4068a11f61fa699) |
 | Wed 18 Nov 2026, 9:51:22 AM UAE<br><sub>Wed 18 Nov 2026, 5:51:22 AM UTC</sub> | DS type scale and red, three.js integrity, audit fixes from v1.0.67 | v1.0.68 | [`df562f0`](https://github.com/jerrin-v/simbench/commit/df562f0f33337173994bb02ff82a7dbd10fb9af5) |
-| Tue 17 Nov 2026, 4:58:03 PM UAE<br><sub>Tue 17 Nov 2026, 12:58:03 PM UTC</sub> | Ask Claude sits 12 px above the status strip on the start screen | v1.0.66 | [`20a5b01`](https://github.com/jerrin-v/simbench/commit/20a5b0116670b8da144c8e4350bd78f26453bd26) |
 <!-- latest-updates:end -->
 
 ## What it simulates
