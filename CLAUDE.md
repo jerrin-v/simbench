@@ -1,10 +1,10 @@
 # SimBench (jerrin-v/simbench) — notes for Claude
 
-Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 ("anyone can download and use the software … add the private key to SimBench also") this public repo holds the app **only sealed**, like his portfolio, alphads and my-agent-hq repos:
+Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 ("anyone can download and use the software … add the private key to SimBench also") this public repo holds the app **only sealed**, like his other repos:
 
 - `backup/simbench.tar.gz.age` — the whole app folder: `index.html` (the page exactly as on claude.ai), `simbench-server.js`, `src/`, `tests/`, `docs/`, `tools/site-lock.mjs`, `build.py`, `package.json`, `LICENSE` and the detailed app notes in its own `CLAUDE.md`. Sealed with age to `keys/backup-recipient.txt`.
 - `backup/BUILD.txt` — `app: SimBench vX.Y.Z · packed <time>`; `tools/update-log.py` reads the Version column from it.
-- Public files only: README.md, RESTORE.md, LICENSE, this file, `.github/workflows/` (publish, update-log), `tools/pack.sh`, `tools/update-log.py`, `keys/`, `docs/4-results.png` (the README picture). `.gitignore` blocks the opened app's paths and any `*key*.txt`. Never commit an opened file, a key or a password.
+- Public files only: README.md, RESTORE.md, LICENSE, this file, `.github/workflows/` (publish, update-log), `tools/pack.sh`, `tools/update-log.py`, `keys/`. `.gitignore` blocks the opened app's paths and any `*key*.txt`. Never commit an opened file, a key or a password.
 - History: every commit holds only sealed versions; the kept ones are v1.0.17 to v1.0.19 (15 Nov 2026).
 
 ## Working on SimBench
@@ -20,7 +20,8 @@ Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 
 - **Push to GitHub only when Jerrin says "Push".**
 - **No security details in the README** (15 Nov 2026): no secret names, password or user steps, sign-in behaviour, example logins or IDs.
 - Every app update raises the version by 1 in the last place (`version` in `package.json` inside the backup), as the app's own notes say.
-- README in the style of his other repos.
+- README in the style of his other repos: short, no pictures, no feature details (19 Nov 2026).
+- The design system is his own: no other owner's name anywhere (19 Nov 2026).
 
 ## When Jerrin says "Push"
 1. `git pull --rebase origin main` (the Update log workflow may have committed a README update).

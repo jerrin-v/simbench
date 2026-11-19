@@ -6,7 +6,6 @@
 /build.py
 /package.json
 /docs/*
-!/docs/4-results.png
 *key*.txt
 node_modules/
 __pycache__/
