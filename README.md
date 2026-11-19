@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Thu 19 Nov 2026, 11:26:37 AM UAE<br><sub>Thu 19 Nov 2026, 7:26:37 AM UTC</sub> | SimBench's design system named as its own; short README without pictures | v1.0.81 | [`9bb19e2`](https://github.com/jerrin-v/simbench/commit/9bb19e211c02bc59517a2e8ae33087e888b0a46f) |
 | Wed 18 Nov 2026, 10:37:39 PM UAE<br><sub>Wed 18 Nov 2026, 6:37:39 PM UTC</sub> | view cube, particle lines, own dropdowns, closed accordions, phone fixes (Frost, Full view, icons, messages) | v1.0.80 | [`9b00e4a`](https://github.com/jerrin-v/simbench/commit/9b00e4a30289cf22cd84c47f6569d222a41d9b18) |
 | Wed 18 Nov 2026, 11:11:47 AM UAE<br><sub>Wed 18 Nov 2026, 7:11:47 AM UTC</sub> | the name pill's arrow sits 12 px from its right edge | v1.0.71 | [`ea6113f`](https://github.com/jerrin-v/simbench/commit/ea6113fb3bce02ac19485004d3bdd7e1dad79deb) |
-| Wed 18 Nov 2026, 11:01:00 AM UAE<br><sub>Wed 18 Nov 2026, 7:01:00 AM UTC</sub> | tooltips after 2 s with a Settings switch, full-details PDF report, equal result buttons, glass popups, notification cards | v1.0.70 | [`6f495d4`](https://github.com/jerrin-v/simbench/commit/6f495d46b682e41127f4f3caa4068a11f61fa699) |
 <!-- latest-updates:end -->
 
 ## Open it
