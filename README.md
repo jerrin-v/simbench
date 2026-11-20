@@ -1,8 +1,8 @@
-# Jerrin Varghese — SimBench (CFD + FEA simulation)
+# Jerrin Varghese — X-Sim RV (CFD + FEA simulation)
 
-Website: **https://jerrin-v.github.io/simbench/**
+Website: **https://jerrin-v.github.io/xsim-rv/**
 
-SimBench is a browser app for CFD and FEA simulation of 3D models. It runs on the computer's own processor cores.
+X-Sim RV is a browser app for CFD and FEA simulation of 3D models. It runs on the computer's own processor cores.
 
 ## Latest updates
 
