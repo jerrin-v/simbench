@@ -1,5 +1,5 @@
-# Publishes SimBench as a website on GitHub Pages, behind a sign-in page: https://jerrin-v.github.io/simbench/
-# The repo holds the app only sealed (backup/simbench.tar.gz.age). This workflow opens it with the SITE_BACKUP_KEY
+# Publishes X-Sim RV as a website on GitHub Pages, behind a sign-in page: https://jerrin-v.github.io/xsim-rv/
+# The repo holds the app only sealed (backup/xsim-rv.tar.gz.age). This workflow opens it with the SITE_BACKUP_KEY
 # secret, locks the app for the users in the SITE_USERS secret with the backup's own tools/site-lock.mjs, and
 # publishes that one locked page. Neither secret is ever printed; without them nothing is published.
 # Runs after every push to main, and from Actions → "Publish site" → Run workflow.
@@ -45,7 +45,7 @@ jobs:
           umask 077
           printf '%s\n' "$SITE_BACKUP_KEY" > "$RUNNER_TEMP/backup-key.txt"
           mkdir -p "$RUNNER_TEMP/app"
-          age -d -i "$RUNNER_TEMP/backup-key.txt" backup/simbench.tar.gz.age | tar -xz -C "$RUNNER_TEMP/app"
+          age -d -i "$RUNNER_TEMP/backup-key.txt" backup/xsim-rv.tar.gz.age | tar -xz -C "$RUNNER_TEMP/app"
           rm -f "$RUNNER_TEMP/backup-key.txt"
           cat backup/BUILD.txt
 

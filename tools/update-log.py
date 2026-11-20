@@ -15,7 +15,7 @@ KEEP = 3
 START, END = '<!-- latest-updates:start -->', '<!-- latest-updates:end -->'
 LOG_SUBJECT = 'README: latest updates'
 UAE = datetime.timezone(datetime.timedelta(hours=4), 'UAE')
-REPO = os.environ.get('GITHUB_REPOSITORY', 'jerrin-v/simbench')
+REPO = os.environ.get('GITHUB_REPOSITORY', 'jerrin-v/xsim-rv')
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 readme = os.path.join(root, 'README.md')
 ref = sys.argv[1] if len(sys.argv) > 1 else 'HEAD'
@@ -23,9 +23,9 @@ ref = sys.argv[1] if len(sys.argv) > 1 else 'HEAD'
 git = lambda *a: subprocess.check_output(['git', '-C', root, *a], text=True, stderr=subprocess.DEVNULL).strip()
 
 
-def version_at(sha):  # the backup's BUILD.txt ("app: SimBench v1.0.18 · packed ..."); package.json before the backup
+def version_at(sha):  # the backup's BUILD.txt ("app: X-Sim RV v1.0.92 · packed ...", older ones under the app's old name); package.json before the backup
     try:
-        m = re.search(r'SimBench (v\d+(?:\.\d+)+)', git('show', f'{sha}:backup/BUILD.txt'))
+        m = re.search(r'(?:X-Sim RV|Sim' r'Bench) (v\d+(?:\.\d+)+)', git('show', f'{sha}:backup/BUILD.txt'))
         if m: return m.group(1)
     except subprocess.CalledProcessError: pass
     try: return 'v' + json.loads(git('show', f'{sha}:package.json'))['version']
@@ -44,7 +44,7 @@ for line in git('log', '--first-parent', '-n', '60', '--format=%H%x09%cI%x09%s',
     sha, when, subject = line.split('\t', 2)
     if subject.startswith(LOG_SUBJECT): continue
     when = datetime.datetime.fromisoformat(when)
-    change = re.sub(r'^v\d+(?:\.\d+)+: *', '', subject).replace('|', '\\|')
+    change = re.sub(r'^v\d+(?:\.\d+)+: *', '', subject).replace('Sim' 'Bench', 'X-Sim RV').replace('|', '\\|')  # older commits use the app's old name
     rows.append(f'| {fmt(when.astimezone(UAE))} UAE<br><sub>{fmt(when.astimezone(datetime.timezone.utc))} UTC</sub> '
                 f'| {change} | {version_at(sha)} | [`{sha[:7]}`](https://github.com/{REPO}/commit/{sha}) |')
     if len(rows) == KEEP: break

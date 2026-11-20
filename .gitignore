@@ -1,6 +1,6 @@
 # The app is kept here only sealed (backup/). Its opened files and any key file never are.
 /index.html
-/simbench-server.js
+/xsim-rv-server.js
 /src/
 /tests/
 /build.py

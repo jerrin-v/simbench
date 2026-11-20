@@ -1,2 +1,2 @@
-# Public key of the SimBench backup (backup/simbench.tar.gz.age). It can seal, not open.
+# Public key of the X-Sim RV backup (backup/xsim-rv.tar.gz.age). It can seal, not open.
 age12dz2m5w29m69s3txf5te2pywekxj4ndpfl0escy7c4vjghf4m9ksdkt20w
