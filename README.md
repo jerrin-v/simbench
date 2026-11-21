@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sat 21 Nov 2026, 8:54:42 PM UAE<br><sub>Sat 21 Nov 2026, 4:54:42 PM UTC</sub> | full audit: phone and dark-theme layout fixes, accessibility (contrast, targets, landmarks, focus), code cleanup | v1.1.1 | [`f5307bd`](https://github.com/jerrin-v/xsim-rv/commit/f5307bd93fc5623a53b428bbcd6f6f5ad7a0bd85) |
 | Sat 21 Nov 2026, 6:10:34 PM UAE<br><sub>Sat 21 Nov 2026, 2:10:34 PM UTC</sub> | camera button on the view cube: perspective or a flat view without depth | v1.1.0 | [`09866fd`](https://github.com/jerrin-v/xsim-rv/commit/09866fd1c92bd7739294e89d53ff40a0bd39e5cb) |
 | Sat 21 Nov 2026, 4:10:20 PM UAE<br><sub>Sat 21 Nov 2026, 12:10:20 PM UTC</sub> | contact between parts (press, slide and separate), and checks before a run with one-click fixes | v1.0.99 | [`0ce16f0`](https://github.com/jerrin-v/xsim-rv/commit/0ce16f00fa3347b1f740bc3270cfcfc262a72b87) |
-| Sat 21 Nov 2026, 11:23:05 AM UAE<br><sub>Sat 21 Nov 2026, 7:23:05 AM UTC</sub> | wall model on the model's faces, large deflection, yielding, smooth surfaces, trust labels and mesh check, a fuller PDF report, automatic server route for heavy runs, tests on GitHub | v1.0.97 | [`54035d7`](https://github.com/jerrin-v/xsim-rv/commit/54035d7230b029d8df99f581794b79ae70f71c51) |
 <!-- latest-updates:end -->
 
 ## Open it
