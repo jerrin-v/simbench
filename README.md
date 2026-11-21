@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sat 21 Nov 2026, 4:10:20 PM UAE<br><sub>Sat 21 Nov 2026, 12:10:20 PM UTC</sub> | contact between parts (press, slide and separate), and checks before a run with one-click fixes | v1.0.99 | [`0ce16f0`](https://github.com/jerrin-v/xsim-rv/commit/0ce16f00fa3347b1f740bc3270cfcfc262a72b87) |
 | Sat 21 Nov 2026, 11:23:05 AM UAE<br><sub>Sat 21 Nov 2026, 7:23:05 AM UTC</sub> | wall model on the model's faces, large deflection, yielding, smooth surfaces, trust labels and mesh check, a fuller PDF report, automatic server route for heavy runs, tests on GitHub | v1.0.97 | [`54035d7`](https://github.com/jerrin-v/xsim-rv/commit/54035d7230b029d8df99f581794b79ae70f71c51) |
 | Sat 21 Nov 2026, 12:11:36 AM UAE<br><sub>Fri 20 Nov 2026, 8:11:36 PM UTC</sub> | renamed to X-Sim RV with the new X logo and black / white primary colour; simulation files are .xrv (old files still open) | v1.0.92 | [`14268e5`](https://github.com/jerrin-v/xsim-rv/commit/14268e5f1d8ebf236aa34007bb89102ecbdb16a8) |
-| Fri 20 Nov 2026, 10:33:29 PM UAE<br><sub>Fri 20 Nov 2026, 6:33:29 PM UTC</sub> | flow physics (thin parts, curved walls, wall model on the ground, true Reynolds number), air pressure as a Strength load, manual wind tunnel, model rotation, undo, fluid temperature and humidity, number box icons | v1.0.90 | [`0c111e9`](https://github.com/jerrin-v/xsim-rv/commit/0c111e9ec252c07a556e4d7086c105741807c948) |
 <!-- latest-updates:end -->
 
 ## Open it
