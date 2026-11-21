@@ -1,0 +1,89 @@
+# Runs X-Sim RV's own checks on every push to main, and from Actions → "Tests" → Run workflow.
+# The repo holds the app only sealed (backup/xsim-rv.tar.gz.age). Each job opens it with the SITE_BACKUP_KEY secret in the
+# runner's temporary folder, runs the checks there and prints only their result lines. The secret is never printed.
+#   solvers:  the textbook checks of the stress, vibration, heat and flow solvers, the server and the sign-in page
+#   physics:  the benchmark cases of the validation report (NAFEMS LE1, plate with a hole, wing, sphere, cylinder, wall friction)
+#   browser:  the app itself driven in Chrome through its guided flow, examples, files, server runs and sign-in
+# This workflow publishes nothing; "Publish site" does that on its own.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        suite: [solvers, physics, browser]
+    name: ${{ matrix.suite }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check the secret
+        env:
+          SITE_BACKUP_KEY: ${{ secrets.SITE_BACKUP_KEY }}
+        run: |
+          if [ -z "$SITE_BACKUP_KEY" ]; then echo "::error::The SITE_BACKUP_KEY secret is missing. Nothing was tested."; exit 1; fi
+
+      - name: Install age
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq age >/dev/null
+
+      - name: Open the sealed app
+        shell: bash
+        env:
+          SITE_BACKUP_KEY: ${{ secrets.SITE_BACKUP_KEY }}
+        run: |
+          umask 077
+          printf '%s\n' "$SITE_BACKUP_KEY" > "$RUNNER_TEMP/backup-key.txt"
+          mkdir -p "$RUNNER_TEMP/app"
+          age -d -i "$RUNNER_TEMP/backup-key.txt" backup/xsim-rv.tar.gz.age | tar -xz -C "$RUNNER_TEMP/app"
+          rm -f "$RUNNER_TEMP/backup-key.txt"
+          cat backup/BUILD.txt
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Solver, server and sign-in checks
+        if: matrix.suite == 'solvers'
+        working-directory: ${{ runner.temp }}/app
+        shell: bash
+        run: |
+          node tests/solvers.test.js | tail -n 40
+          node tests/server.test.js | tail -n 5
+          node tests/site-lock.test.mjs | tail -n 5
+
+      - name: Benchmark cases
+        if: matrix.suite == 'physics'
+        working-directory: ${{ runner.temp }}/app
+        run: node tests/physics.test.js
+
+      - name: The app in Chrome
+        if: matrix.suite == 'browser'
+        working-directory: ${{ runner.temp }}/app
+        shell: bash
+        run: |
+          set -o pipefail
+          npm install --no-audit --no-fund --silent
+          python3 -m pip install --quiet --break-system-packages playwright
+          export CHROME="$(command -v google-chrome || command -v chromium-browser || command -v chromium)"
+          for t in guided examples threads server files agent login; do
+            echo "=== $t"
+            python3 "tests/browser/test_$t.py" 2>&1 | tail -n 3
+          done
+
+      - name: Remove the opened app
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/app"

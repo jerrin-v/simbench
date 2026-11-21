@@ -6,7 +6,7 @@ Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 
 
 - `backup/xsim-rv.tar.gz.age` — the whole app folder: `index.html` (the page exactly as on claude.ai), `xsim-rv-server.js`, `src/`, `tests/`, `docs/`, `tools/site-lock.mjs`, `build.py`, `package.json`, `LICENSE` and the detailed app notes in its own `CLAUDE.md`. Sealed with age to `keys/backup-recipient.txt`.
 - `backup/BUILD.txt` — `app: X-Sim RV vX.Y.Z · packed <time>`; `tools/update-log.py` reads the Version column from it.
-- Public files only: README.md, RESTORE.md, LICENSE, this file, `.github/workflows/` (publish, update-log), `tools/pack.sh`, `tools/update-log.py`, `keys/`. `.gitignore` blocks the opened app's paths and any `*key*.txt`. Never commit an opened file, a key or a password.
+- Public files only: README.md, RESTORE.md, LICENSE, this file, `.github/workflows/` (publish, update-log, test), `tools/pack.sh`, `tools/update-log.py`, `keys/`. `.gitignore` blocks the opened app's paths and any `*key*.txt`. Never commit an opened file, a key or a password.
 - History: every commit holds only sealed versions; the kept ones are v1.0.17 to v1.0.19 (15 Nov 2026).
 
 ## Working on X-Sim RV
@@ -17,6 +17,9 @@ Jerrin's browser app for CFD and FEA simulation of 3D models. Since 15 Nov 2026 
 
 ## Website
 `.github/workflows/publish.yml` opens the backup with the `SITE_BACKUP_KEY` secret, locks `index.html` for the users in the `SITE_USERS` secret with the backup's own `tools/site-lock.mjs`, and publishes that one page to https://jerrin-v.github.io/xsim-rv/ (Pages source: GitHub Actions). A session cannot read or set secrets; Jerrin changes them under Settings, then runs Actions › Publish site › Run workflow.
+
+## Tests on GitHub
+`.github/workflows/test.yml` (added with v1.0.97) runs the app's own checks on every push to main and from Actions › Tests › Run workflow: three jobs (solvers, physics, browser), each opening the backup with the same secret as the site workflow. It publishes nothing and does not hold the site back. After a push, check its run beside the Publish site run.
 
 ## Working rules (from Jerrin)
 - **Push to GitHub only when Jerrin says "Push".**
